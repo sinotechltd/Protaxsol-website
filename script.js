@@ -1,5 +1,3 @@
-document.querySelector(".hamburger-menu").
-addEventListener("click", () => {
-    document.querySelector(".container").classList.toggle("Change");
-    //console.log("javascript ok");
+document.querySelector(".hamburger-menu").addEventListener("click", () => {
+    document.querySelector(".container").classList.toggle("change");
 });
