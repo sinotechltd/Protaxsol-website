@@ -17,6 +17,7 @@
 
 <body>
     <div class="container">
+        <a name="slide1"></a>
         <div class="hamburger-menu">
             <div class="line line-1"></div>
             <div class="line line-2"></div>
@@ -35,19 +36,20 @@
         </header>
         <section class="sidebar">
             <ul class="menu">
-                <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="Home">Home</a>
+                <li class="menu-item" data-menuanchor="slide1">
+                    <a href="#slide1" class="menu-link" data-content="Home">Home</a>
                 </li>
-                <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="Team">Team</a>
+
+                <li class="menu-item" data-menuanchor="slide2">
+                    <a href="#slide2" class="menu-link" data-content="About Us">About Us</a>
                 </li>
-                <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="About Us">About Us</a>
+                <li class="menu-item" data-menuanchor="slide3">
+                    <a href="#slide3" class="menu-link" data-content="Team">Team</a>
                 </li>
-                <li class="menu-item">
-                    <a href="#" class="menu-link" data-content="Contact">Contact</a>
+                <li class="menu-item" data-menuanchor="slide4">
+                    <a href="contact.html" class="menu-link" data-content="Contact">Contact</a>
                 </li>
-                <li class="menu-item">
+                <li class="menu-item" data-menuanchor="slide5">
                     <a href="#" class="menu-link" data-content="Blog">Blog</a>
                 </li>
             </ul>
@@ -57,7 +59,8 @@
                 <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
         </section>
-        <section class="about-us">
+        <section class="about-us" data-section="slide2">
+            <a name="slide2"></a>
             <div class="section-header">
                 <h1 class="section-heading">About Us</h1>
                 <div class="underline"></div>
@@ -115,7 +118,8 @@
                 </div>
             </div>
         </section>
-        <sectiom class="team">
+        <section class="team" data-section="slide3">
+            <a name="slide3"></a>
             <div class="section-header">
                 <h1 class="section-heading">Our Team</h1>
                 <div class="underline"></div>
@@ -213,12 +217,11 @@
                     </div>
                 </div>
             </div>
-        </sectiom>
+        </section>
 
     </div>
 
     <script src="script.js"></script>
-
 
 </body>
 
