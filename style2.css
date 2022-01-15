@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Da 2', serif;
+}
+
+.contact {
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url(images/contactbg.jpg);
+    background-size: cover;
+}
+
+.contact .content {
+    max-width: 800px;
+    text-align: center;
+}
+
+.content .content h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.containers {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+    margin-top: 30px;
+}
+
+.containers .containersInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.containers .containersInfo .box {
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.containers .containersInfo .box .icon {
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactForm {
+    width: 40%;
+    padding: 40px;
+}
+
+.contactForm .inputBox {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.contactForm .inputBox input {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.contactForm .inputBox textarea {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid black;
+}
